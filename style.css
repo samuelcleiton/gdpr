@@ -1,0 +1,84 @@
+
+.gdpr-message {
+    position:fixed;
+    z-index:10; 
+    width:100%; display:block; 
+    padding:8px;
+}
+
+
+/* #region OCEAN */
+.ocean {
+    background-color: #064273 ;
+    color: #FFFFFF;
+    border: solid 5px #76b6c4;
+}
+
+.ocean input[type=button],
+.ocean button {
+    background-color: #7fcdff ;
+    color: #FFFFFF  ;
+}
+/* #endregion */
+
+/* #region LIFE */
+.life {
+    background-color: #CECECE ;
+    color: #7A7A7A;
+    border: solid 5px #8D4C99;
+}
+
+.life input[type=button],
+.life button {
+    background-color: #C61D70 ;
+    color: #FFFFFF  ;
+}
+/* #endregion */
+
+/* #region PASTELZAO */
+.pastelzao {
+    background-color: #23303E ;
+    color: #FFFFFF;
+    border: solid 5px #31475F; 
+}
+.pastelzao input[type=button],
+.pastelzao button {
+    background-color: #FEBC69 ;
+    color: #333333  ;
+}
+/* #endregion */
+
+/* #region DEEB BLUE */
+.deep-blue {
+    background-color: #0034FF ;
+    color: #FFFFFF;
+    border: solid 5px #31475F; 
+}
+.deep-blue input[type=button],
+.deep-blue button {
+    background-color: #FFFFFF ;
+    color: #666666  ;
+}
+/* #endregion */
+
+.ocean.top,
+.life.top,
+.pastelzao.top,
+.deep-blue.top {
+    border-width: 0;
+    border-bottom-width: 5px ;
+
+    top:0;
+    width: 100%;
+}
+
+.ocean.bottom,
+.life.bottom,
+.pastelzao.bottom,
+.deep-blue.bottom {
+    border-width: 0;
+    border-top-width: 5px ;
+
+    bottom:0;
+    width: 100%;
+}
